@@ -1,0 +1,11 @@
+version: 1
+project:
+  title: "HW3 – LIGO Tools Analysis"
+  author: "Saachi Goyal"
+  github: "https://github.com/saachigoyall/hw3-saachigoyal26"
+  binder:
+    url: "https://mybinder.org/v2/gh/saachigoyall/hw3-saachigoyal26/HEAD"
+site:
+  title: "LIGO Homework 3"
+  nav:
+    - file: GW150914.ipynb
