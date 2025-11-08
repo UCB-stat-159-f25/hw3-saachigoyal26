@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+version = "0.1.0"
+authors = [
+  { name = "LIGO Scientific Collaboration (LSC) and Saachi Goyal" }
+]
+description = "LIGO Gravitational Wave Detection utilities and analysis tools"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib",
+  "h5py",
+  "pytest",
+  "astropy",
+  "jupyter",
+  "mystmd"
+]
+
+[tool.setuptools.packages.find]
+include = ["ligotools"]
+exclude = ["data", "audio", "figures"]
+
